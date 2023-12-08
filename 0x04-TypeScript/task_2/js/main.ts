@@ -44,3 +44,16 @@ function createEmployee(obj: salary) {
 		}
 	}
 }
+
+function isDirector(employee) {
+	return;
+}
+
+function executeWork(employee) {
+	if (employee === Director) {
+		call workDirectorTasks;
+	}
+	if (employee === Teacher) {
+		call workTeacherTasks;
+	}
+}
